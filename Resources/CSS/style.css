@@ -1,0 +1,42 @@
+body {
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+section {
+  border: 2px solid gray;
+  padding: 8px;
+}
+
+.colors {
+  margin: 15px -40px;
+}
+
+.colors li {
+  display: inline-block;
+  margin: 10px 2px;
+  width: 30%;
+  text-align: center;
+}
+
+#cool_blue {
+  background-color: #2d5dcc;
+  color: white;
+  padding: 10px 0;
+}
+
+#pink {
+  background-color: #d957d9;
+  padding: 10px 0;
+}
+
+#mint_green {
+  background-color: #4fe0b0;
+  padding: 10px 0;
+}
+
+#beige {
+  background-color: #efd9ca;
+  padding: 10px 0;
+}
