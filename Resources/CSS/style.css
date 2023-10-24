@@ -7,6 +7,7 @@ body {
 section {
   border: 2px solid gray;
   padding: 8px;
+  margin: 7px 0;
 }
 
 .colors {
@@ -39,4 +40,40 @@ section {
 #beige {
   background-color: #efd9ca;
   padding: 10px 0;
+}
+
+.fonts li {
+  list-style: none;
+  margin: 20px 0px 20px -40px;
+}
+
+.fonts > li {
+  display: inline-block;
+  margin: 10px 60px 10px -40px;
+  width: 45%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.scp {
+  font-family: 'source code pro';
+}
+
+.ns {
+  font-family: 'Nunito Sans';
+}
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+.font_name {
+  text-decoration: underline;
+  font-size: 20px;
 }
